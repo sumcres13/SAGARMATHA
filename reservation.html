@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#172c25">
+  <meta name="description" content="ランザナの日野店・八王子店のお席のご予約。">
+  <title>RESERVATION｜ランザナ RANZANA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700;800&family=Noto+Serif+JP:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/ranzana-logo.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="vendor/budoux-ja-parser.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body class="page-reservation" data-page="reservation">
+  <a class="skip-link" href="#main" data-i18n="skip">本文へ移動</a>
+  <header class="site-header" id="top">
+    <a class="brand" href="index.html" data-i18n="companyName">有限会社サガラマタ</a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="メニューを開く"><span></span><span></span></button>
+    <nav class="site-nav" id="site-nav" aria-label="メインナビゲーション">
+      <a href="index.html" data-i18n="navHome">ホーム</a>
+      <a href="about.html" data-i18n="navAbout">私たちについて</a>
+      <a href="access.html" data-i18n="navAccess">店舗・アクセス</a>
+      <a href="reservation.html" aria-current="page" data-i18n="navReservation">ご予約</a>
+    </nav>
+    <button class="lang-toggle" type="button" aria-label="Switch to English">EN</button>
+  </header>
+  <main id="main">
+<section class="subhero subhero-reservation" aria-labelledby="reservation-title"><img src="assets/shop-interior-03.png" alt="ランザナの客席" fetchpriority="high"><div class="subhero-shade"></div><div class="subhero-content"><h1 id="reservation-title" data-i18n="reservationHeroTitle">ご予約</h1></div></section>
+<section class="reservation-intro section-wrap"><p class="eyebrow" data-i18n="reserveEyebrow">RESERVATION</p><h2 data-i18n="reservationTitle">ご希望の店舗をお選びください</h2><p data-i18n="reservationIntro">日野店・八王子店、それぞれのご予約方法とデリバリーサービスをご案内します。</p><div class="deck-switch" role="group" aria-label="店舗を選ぶ"><button type="button" data-show-shop="0" aria-pressed="true" data-i18n="storeHinoShort">日野店</button><button type="button" data-show-shop="1" aria-pressed="false" data-i18n="storeHachiojiShort">八王子店</button></div></section>
+<section class="reservation-deck section-wrap" aria-label="店舗別のご予約とデリバリー"><div class="shop-deck" tabindex="0"><article class="shop-deck-card is-front" id="hino" data-shop-index="0">
+      <div class="deck-face" >
+        <div class="deck-photo"><img src="assets/shop-hino-exterior.png" alt="ランザナ日野店の外観" loading="lazy"><span class="deck-photo-label" data-i18n="storeHinoShort">日野店</span></div>
+        <div class="deck-content"><p class="deck-index"><span data-i18n="storeHinoShort">日野店</span></p><h3 tabindex="-1" data-i18n="hinoName">ランザナ RANZANA</h3>
+          <div class="deck-facts"><p><span data-i18n="addressLabel">住所</span><span data-i18n="hinoAddressShort">東京都日野市南平2-71-12</span></p><p><span data-i18n="hoursLabel">営業時間</span><span data-i18n="hinoHours">11:00–15:00 / 17:00–21:45</span></p><p><span data-i18n="holidayLabel">定休日</span><span data-i18n="noHoliday">なし</span></p></div>
+          <a class="deck-access" href="access.html#hino" data-i18n="shopAccessLink">店舗へのアクセス ↗</a>
+          <div class="deck-booking-group"><h4 data-i18n="reserveMethodsHeading">お席のご予約</h4><div class="booking-methods"><a class="booking-method tabelog" href="https://tabelog.com/en/tokyo/A1329/A132903/13010249/" target="_blank" rel="noopener noreferrer"><img src="assets/tabelog.jpg" alt="" loading="lazy"><span><strong data-i18n="bookTabelog">食べログで確認</strong><small data-i18n="viewShopPage">店舗ページへ</small></span><span class="method-arrow" aria-hidden="true">↗</span></a><a class="booking-method gurunavi" href="https://r.gnavi.co.jp/cgcvrt2n0000/" target="_blank" rel="noopener noreferrer"><img src="assets/gurunavi.png" alt="" loading="lazy"><span><strong data-i18n="bookGurunavi">楽天ぐるなびで予約</strong><small data-i18n="viewReservationPage">予約ページへ</small></span><span class="method-arrow" aria-hidden="true">↗</span></a><a class="booking-method telephone" href="tel:0425920091" ><span class="phone-symbol" aria-hidden="true">☎</span><span><strong data-i18n="bookPhone">お電話で予約</strong><small data-i18n="bookPhoneNumberHino">042-592-0091</small></span><span class="method-arrow" aria-hidden="true">↗</span></a></div></div>
+          <div class="deck-delivery-group"><h4 data-i18n="deliveryHeading">デリバリー</h4><div class="delivery-methods"><a class="delivery-method uber" href="https://www.ubereats.com/jp/store/%E6%9C%AC%E6%A0%BC%E3%82%A4%E3%83%B3%E3%83%88%E3%82%AB%E3%83%AC%E3%83%BC%E3%82%A4%E3%83%B3%E3%83%88%E3%83%8D%E3%83%8F%E3%83%BC%E3%83%AB%E6%96%99%E7%90%86%E3%83%A9%E3%83%B3%E3%82%B5%E3%83%8A-ranzana/eT-210TfR-eKnMdPUqx0xg" target="_blank" rel="noopener noreferrer" aria-label="Uber Eatsで注文"><img src="assets/uber-eats.png" alt="" loading="lazy"><span>Uber Eats</span><span aria-hidden="true">↗</span></a><a class="delivery-method demae" href="https://demae-can.com/shop/menu/3168881" target="_blank" rel="noopener noreferrer" aria-label="出前館で注文"><img src="assets/demae-can.png" alt="" loading="lazy"><span>出前館</span><span aria-hidden="true">↗</span></a><a class="delivery-method rocket" href="https://customer-web.rocketnow.co.jp/share?storeId=13426&amp;dishId&amp;key=c132c43b-416c-48ef-95d0-7fea189eb101" target="_blank" rel="noopener noreferrer" aria-label="Rocket Nowで注文"><img src="assets/rocket-now.png" alt="" loading="lazy"><span>Rocket Now</span><span aria-hidden="true">↗</span></a></div></div>
+        </div>
+      </div>
+    </article><article class="shop-deck-card is-back" id="hachioji" data-shop-index="1">
+      <div class="deck-face" inert aria-hidden="true">
+        <div class="deck-photo"><img src="assets/shop-ranzana-exterior.png" alt="ランザナ八王子店の外観" loading="lazy"><span class="deck-photo-label" data-i18n="storeHachiojiShort">八王子店</span></div>
+        <div class="deck-content"><p class="deck-index"><span data-i18n="storeHachiojiShort">八王子店</span></p><h3 tabindex="-1" data-i18n="hachiojiNameLong">インドネパールレストラン<br>ランザナ RANZANA</h3>
+          <div class="deck-facts"><p><span data-i18n="addressLabel">住所</span><span data-i18n="hachiojiAddressShort">東京都八王子市八日町9-12 ミナミビル1F</span></p><p><span data-i18n="hoursLabel">営業時間</span><span data-i18n="hachiojiHours">11:00–15:00 / 17:00–22:00</span></p><p><span data-i18n="holidayLabel">定休日</span><span data-i18n="noHoliday">なし</span></p></div>
+          <a class="deck-access" href="access.html#hachioji" data-i18n="shopAccessLink">店舗へのアクセス ↗</a>
+          <div class="deck-booking-group"><h4 data-i18n="reserveMethodsHeading">お席のご予約</h4><div class="booking-methods"><a class="booking-method telephone" href="tel:0426152731" ><span class="phone-symbol" aria-hidden="true">☎</span><span><strong data-i18n="bookPhone">お電話で予約</strong><small data-i18n="bookPhoneNumberHachioji">042-615-2731</small></span><span class="method-arrow" aria-hidden="true">↗</span></a></div></div>
+          <div class="deck-delivery-group"><h4 data-i18n="deliveryHeading">デリバリー</h4><div class="delivery-methods"><a class="delivery-method uber" href="https://www.ubereats.com/jp/store/%E6%9C%AC%E6%A0%BC%E3%82%A4%E3%83%B3%E3%83%88%E3%82%AB%E3%83%AC%E3%83%BC%E5%B0%82%E9%96%80%E5%BA%97%E3%83%A9%E3%83%B3%E3%82%B5%E3%83%8A-ranzana/Pp4rqEhjRXOA38bb6FFQSg" target="_blank" rel="noopener noreferrer" aria-label="Uber Eatsで注文"><img src="assets/uber-eats.png" alt="" loading="lazy"><span>Uber Eats</span><span aria-hidden="true">↗</span></a><a class="delivery-method demae" href="https://demae-can.com/shop/menu/3452460" target="_blank" rel="noopener noreferrer" aria-label="出前館で注文"><img src="assets/demae-can.png" alt="" loading="lazy"><span>出前館</span><span aria-hidden="true">↗</span></a><a class="delivery-method rocket" href="https://customer-web.rocketnow.co.jp/share?storeId=12739&amp;dishId&amp;key=1b04554d-8cc7-4c7e-a636-69af14c4b561" target="_blank" rel="noopener noreferrer" aria-label="Rocket Nowで注文"><img src="assets/rocket-now.png" alt="" loading="lazy"><span>Rocket Now</span><span aria-hidden="true">↗</span></a></div></div>
+        </div>
+      </div>
+    </article></div><div class="deck-controls" role="group" aria-label="店舗スライドの操作"><button class="deck-arrow" type="button" data-slide-direction="-1" aria-label="前の店舗">←</button><span class="deck-controls-current" aria-hidden="true">日野店</span><button class="deck-arrow" type="button" data-slide-direction="1" aria-label="次の店舗">→</button></div><p class="deck-live sr-only" aria-live="polite">日野店を表示中</p></section>
+</main>
+  <footer class="site-footer"><div class="footer-main"><div class="footer-identity"><a href="index.html" data-i18n="companyName">有限会社サガラマタ</a><p data-i18n="footerTagline">街に、いつものスパイスを。</p><a class="footer-line" href="https://line.me/R/ti/p/@931pepii" target="_blank" rel="noopener noreferrer" aria-label="日野店の公式LINE"><img src="assets/line.png" alt="">LINE</a></div><div class="footer-contact"><h2 data-i18n="footerContact">お問い合わせ</h2><p><span data-i18n="storeHinoShort">日野店</span> <a href="tel:0425920091">042-592-0091</a></p><p class="footer-address" data-i18n="hinoAddressShort">東京都日野市南平2-71-12</p><p><span data-i18n="storeHachiojiShort">八王子店</span> <a href="tel:0426152731">042-615-2731</a></p><p class="footer-address" data-i18n="hachiojiAddressShort">東京都八王子市八日町9-12 ミナミビル1F</p></div><nav class="footer-nav" aria-label="フッターナビゲーション"><h2 class="footer-nav-title">NAVIGATION</h2><a href="index.html" data-i18n="navHome">ホーム</a><a href="about.html" data-i18n="navAbout">私たちについて</a><a href="access.html" data-i18n="navAccess">店舗・アクセス</a><a href="reservation.html" aria-current="page" data-i18n="navReservation">ご予約</a></nav></div><div class="footer-bottom"><span>© <span id="year">2026</span> SAGARMATHA CO., LTD.</span><a href="#top" data-i18n="pageTop">ページトップへ ↑</a></div></footer>
+</body>
+</html>
+
+
+

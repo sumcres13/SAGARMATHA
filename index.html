@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#172c25">
+  <meta name="description" content="日野・八王子のインド・ネパール料理店、ランザナ。">
+  <title>HOME｜ランザナ RANZANA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700;800&family=Noto+Serif+JP:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/ranzana-logo.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="vendor/budoux-ja-parser.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body class="page-home" data-page="home">
+  <a class="skip-link" href="#main" data-i18n="skip">本文へ移動</a>
+  <header class="site-header" id="top">
+    <a class="brand" href="index.html" data-i18n="companyName">有限会社サガラマタ</a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="メニューを開く"><span></span><span></span></button>
+    <nav class="site-nav" id="site-nav" aria-label="メインナビゲーション">
+      <a href="index.html" aria-current="page" data-i18n="navHome">ホーム</a>
+      <a href="about.html" data-i18n="navAbout">私たちについて</a>
+      <a href="access.html" data-i18n="navAccess">店舗・アクセス</a>
+      <a href="reservation.html" data-i18n="navReservation">ご予約</a>
+    </nav>
+    <button class="lang-toggle" type="button" aria-label="Switch to English">EN</button>
+  </header>
+  <main id="main">
+<section class="hero" aria-labelledby="hero-title">
+  <img class="hero-photo" src="assets/hero-food.png" alt="カレー、ナン、モモが並ぶ食卓" fetchpriority="high">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <h1 id="hero-title" data-i18n="homeHeroTitle">街に、いつもの<br><em>スパイス</em>を。</h1>
+    <p class="hero-lead" data-i18n="homeHeroLead">焼きたてのナンと、じっくり煮込んだカレー。<br>何度でも通いたくなる、街のインド・ネパール料理店。</p>
+    <div class="hero-actions"><a class="hero-reserve" href="reservation.html" data-i18n="homeHeroReserve">ご予約はこちら</a><a class="hero-access" href="access.html" data-i18n="homeHeroAccess">店舗へのアクセス</a></div>
+  </div>
+</section>
+<section class="home-about-teaser" aria-labelledby="home-about-title">
+  <div class="section-wrap home-about-layout">
+    <div class="home-about-copy">
+      <p class="eyebrow" data-i18n="homeIntroLabel">ランザナについて</p>
+      <h2 id="home-about-title" data-i18n="homeIntroTitle">本場の味を、<br>地域の食卓へ。</h2>
+      <p data-i18n="homeIntroP1">有限会社サガラマタは、日野と八王子でインド・ネパール料理店「ランザナ」を運営しています。</p>
+      <p data-i18n="homeIntroP2">スパイスの配合、食材の選定、丁寧な仕込みを大切に。本場の味を誠実にお届けし、料理を通じて人と人をつなぎます。</p>
+      <a class="home-about-link" href="about.html" data-i18n="homeIntroLink">私たちについて <span aria-hidden="true">→</span></a>
+    </div>
+    <figure class="home-about-photo"><img src="assets/shop-interior-02.png" alt="ランザナの店内とテーブル席" loading="lazy"><figcaption>RANZANA · HACHIOJI</figcaption></figure>
+  </div>
+</section>
+<section class="shops-section home-shops"><div class="section-wrap"><div class="section-title light-title"><div><p class="eyebrow" data-i18n="homeShopsEyebrow">ランザナの店舗</p><h2 data-i18n="homeShopsTitle">ふたつの街のランザナ</h2></div></div><div class="home-shop-grid">
+  <article class="home-shop"><img src="assets/shop-hino-exterior.png" alt="ランザナ日野店の外観" loading="lazy"><div><span data-i18n="storeHinoIndex">日野店</span><h3 data-i18n="hinoName">ランザナ RANZANA</h3><p data-i18n="homeHinoSummary">日野市南平のインド・ネパール料理店。</p><a href="access.html#hino" data-i18n="shopInfoLink">店舗情報を見る ↗</a></div></article>
+  <article class="home-shop"><img src="assets/shop-ranzana-exterior.png" alt="ランザナ八王子店の外観" loading="lazy"><div><span data-i18n="storeHachiojiIndex">八王子店</span><h3 data-i18n="hachiojiName">インドネパールレストラン ランザナ</h3><p data-i18n="homeHachiojiSummary">八王子市八日町のインド・ネパール料理店。</p><a href="access.html#hachioji" data-i18n="shopInfoLink">店舗情報を見る ↗</a></div></article>
+</div></div></section>
+<section class="service-section" aria-labelledby="service-title"><div class="section-wrap service-inner">
+  <div class="sns-copy"><p class="eyebrow" data-i18n="snsLabel">SNS</p><h2 id="service-title" data-i18n="snsTitle">ランザナの<br>最新情報をお届けします。</h2><p data-i18n="snsDetail">日野店の情報を、公式LINEでご覧いただけます。</p></div>
+  <div class="sns-actions"><a class="line-button" href="https://line.me/R/ti/p/@931pepii" target="_blank" rel="noopener noreferrer" aria-label="ランザナ日野店のLINE公式アカウント"><img src="assets/line.png" alt=""><span><strong>LINE</strong><small data-i18n="lineButton">日野店のLINEを見る</small></span></a><p data-i18n="snsShopNote">日野店 公式アカウント</p></div>
+</div></section>
+<section class="home-reserve" aria-labelledby="home-reserve-title"><div class="home-reserve-shade"></div><div class="section-wrap home-reserve-content"><h2 id="home-reserve-title" data-i18n="homeReserveTitle">ご予約・お問い合わせ</h2><a class="filled-link" href="reservation.html" data-i18n="homeReserveLink">予約ページへ →</a></div></section>
+</main>
+  <footer class="site-footer"><div class="footer-main"><div class="footer-identity"><a href="index.html" data-i18n="companyName">有限会社サガラマタ</a><p data-i18n="footerTagline">街に、いつものスパイスを。</p><a class="footer-line" href="https://line.me/R/ti/p/@931pepii" target="_blank" rel="noopener noreferrer" aria-label="日野店の公式LINE"><img src="assets/line.png" alt="">LINE</a></div><div class="footer-contact"><h2 data-i18n="footerContact">お問い合わせ</h2><p><span data-i18n="storeHinoShort">日野店</span> <a href="tel:0425920091">042-592-0091</a></p><p class="footer-address" data-i18n="hinoAddressShort">東京都日野市南平2-71-12</p><p><span data-i18n="storeHachiojiShort">八王子店</span> <a href="tel:0426152731">042-615-2731</a></p><p class="footer-address" data-i18n="hachiojiAddressShort">東京都八王子市八日町9-12 ミナミビル1F</p></div><nav class="footer-nav" aria-label="フッターナビゲーション"><h2 class="footer-nav-title">NAVIGATION</h2><a href="index.html" aria-current="page" data-i18n="navHome">ホーム</a><a href="about.html" data-i18n="navAbout">私たちについて</a><a href="access.html" data-i18n="navAccess">店舗・アクセス</a><a href="reservation.html" data-i18n="navReservation">ご予約</a></nav></div><div class="footer-bottom"><span>© <span id="year">2026</span> SAGARMATHA CO., LTD.</span><a href="#top" data-i18n="pageTop">ページトップへ ↑</a></div></footer>
+</body>
+</html>
+
+
